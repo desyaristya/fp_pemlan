@@ -161,14 +161,14 @@ int main()
     do{
 	    printf("DATA PESERTA UTBK\n");
 	    printf("==================================================\n");
-		printf("1. Display Data Peserta\n");
-		printf("2. Display Data Peserta dengan Filter\n");
+	    printf("1. Display Data Peserta\n");
+	    printf("2. Display Data Peserta dengan Filter\n");
 	    printf("3. Hitung Rata-Rata Score Peserta\n");
 	    printf("4. Sorting\n");
 	    printf("5. Searching\n");
 	    printf("6. Masukkan Data Peserta Baru\n");
-		printf("7. Edit Informasi Peserta\n");
-	    printf("8. Hapus Data Peserta\n");
+//	    printf("7. Edit Informasi Peserta\n");
+//	    printf("8. Hapus Data Peserta\n");
         
 		printf("\nPilih Opsi di Atas : ");
         scanf("%d",&menu);
