@@ -3,7 +3,7 @@ Judul project: Aplikasi Data UTBK SBMPTN
 
 Nama Anggota: Desya Ristya Putri an Forentina Kerti Pratiwi S
 
-Deskripsi Project:
+Deskripsi Project: Aplikasi ini dibuat untuk mempermudah dalam data UTBK SBMPTN
 
 Data yang digunakan: Majors,Universities,score_humanities dan score Science
 
