@@ -18,3 +18,7 @@ List Menu yang ditawarkan:
   6. Cek peluang lolos peserta
   7. Serching
   8. Sorting
+
+Cara menggunakannya:
+
+Screenshot aplikasi:
