@@ -15,7 +15,7 @@ List Menu yang ditawarkan:
   3. Edit Informasi Peserta
   4. Hapus data peserta
   5. Masukkan data peserta baru
-  6. Cek peluang lolos peserta
+  6. Hitung rata-rata score peserta
   7. Serching
   8. Sorting
 
