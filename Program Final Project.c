@@ -11,7 +11,17 @@ typedef struct {
     int mean_score;
 } Owner;
 
+typedef struct {
+    int id_first_major;
+    int id_user;
+	int score_bio;
+    int score_fis;
+    int score_kim;
+    int mean_score;
+} Owner_temp;
+
 Owner owners[100];
+Owner_temp o_temp[100];
 
 int load(char* filename)
 {
@@ -44,7 +54,7 @@ void display (char* owners_filename){
 
     if(owners_size)
     {
-        printf("owners size: %d\n\n", owners_size);
+//        printf("owners size: %d\n\n", owners_size);
 
         for(index = 0; index < owners_size; index++)
             printf("%d	%d	%d	%d	%d\n",  owners[index].id_first_major, owners[index].id_user,owners[index].score_bio, owners[index].score_fis,owners[index].score_kim);
@@ -58,7 +68,7 @@ void displayByFilter(char* owners_filename, int rawal, int rakhir){
 
     if(owners_size)
     {
-        printf("owners size: %d\n\n", owners_size);
+//        printf("owners size: %d\n\n", owners_size);
 
         for(index = rawal-1; index < rakhir; index++)
             printf("%d	%d	%d	%d	%d\n",  owners[index].id_first_major, owners[index].id_user,owners[index].score_bio, owners[index].score_fis,owners[index].score_kim);
@@ -91,6 +101,22 @@ void sorting (char* owners_filename){
 				temp = owners[index].id_first_major;
       			owners[index].id_first_major = owners[count].id_first_major;
         		owners[count].id_first_major = temp;
+        		
+        		temp = owners[index].id_user;
+      			owners[index].id_user = owners[count].id_user;
+        		owners[count].id_user = temp;
+        		
+        		temp = owners[index].score_bio;
+      			owners[index].score_bio = owners[count].score_bio;
+        		owners[count].score_bio = temp;
+        		
+        		temp = owners[index].score_fis;
+      			owners[index].score_fis = owners[count].score_fis;
+        		owners[count].score_fis = temp;
+        		
+        		temp = owners[index].score_kim;
+      			owners[index].score_kim = owners[count].score_kim;
+        		owners[count].score_kim = temp;
          	}
       	}
    	}
@@ -147,7 +173,7 @@ void insert_data(char* owners_filename, char* filename){
 
     fprintf(file, "\n%d, %d, %d, %d, %d", owners[owners_size+1].id_first_major, owners[owners_size+1].id_user, owners[owners_size+1].score_bio, owners[owners_size+1].score_fis, owners[owners_size+1].score_kim);
   
-    printf("\nData baru telah ditambahkan");
+    printf("\nData baru telah ditambahkan\n");
   
 	fclose(file);
 }
@@ -161,14 +187,12 @@ int main()
     do{
 	    printf("DATA PESERTA UTBK\n");
 	    printf("==================================================\n");
-	    printf("1. Display Data Peserta\n");
-	    printf("2. Display Data Peserta dengan Filter\n");
+		printf("1. Display Data Peserta\n");
+		printf("2. Display Data Peserta dengan Filter\n");
 	    printf("3. Hitung Rata-Rata Score Peserta\n");
 	    printf("4. Sorting\n");
 	    printf("5. Searching\n");
 	    printf("6. Masukkan Data Peserta Baru\n");
-//	    printf("7. Edit Informasi Peserta\n");
-//	    printf("8. Hapus Data Peserta\n");
         
 		printf("\nPilih Opsi di Atas : ");
         scanf("%d",&menu);
@@ -202,12 +226,6 @@ int main()
         case 6:
             insert_data(owners_filename, owners_filename);
         	break;
-//        case 7:
-//            update();
-//        	break;
-//        case 8:
-//            delete();
-//            break;
         }
     }while(menu!=0);
 
