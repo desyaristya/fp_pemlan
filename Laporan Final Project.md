@@ -18,8 +18,6 @@ List Menu yang Ditawarkan:
 4. Sorting
 5. Searching
 6. Masukkan Data Peserta Baru
-7. Edit Informasi Peserta
-8. Hapus Data Peserta
 
 Cara Penggunaan Aplikasi:
 1. Pertama, user akan ditampilkan menu yang ditawarkan dan user memilih satu diantara menu tersebut
@@ -29,40 +27,36 @@ Cara Penggunaan Aplikasi:
 5. Pilihan "4" akan mengurutkan Id Pilihan Jurusan peserta secara ascending dengan metode selection sort
 6. Pilihan "5" membantu user untuk menemukan data peserta dengan memasukkan Id User dengan metode linear search
 7. Pilihan "6" digunakan untuk menambahkan data peserta baru ke dalam file
-8. Pilihan "7" digunakan untuk mengedit data peserta yang sudah ada dalam file
-9. Pilihan "8" digunakan untuk menghapus data peserta
 
 Screenshots Aplikasi:
 1. Tampilan Awal Menu
 
-![menu](https://user-images.githubusercontent.com/90812374/147710854-6db2d22e-e037-4a36-bc18-7895fd824efe.PNG)
+![fp_menu](https://user-images.githubusercontent.com/90812374/147712719-7cf1eb4e-074a-4db6-8a80-9027393c8a53.PNG)
 
 2. Menu 1 (Display Data Peserta)
 
-![1](https://user-images.githubusercontent.com/90812374/147711022-3866beee-4b2b-4f02-a798-3d52d83da306.PNG)
+![fp_1](https://user-images.githubusercontent.com/90812374/147712721-9ce5ae2d-cc0e-41bd-ac3d-9e72ac18ffb9.PNG)
 
 3. Menu 2 (Display Data Peserta dengan Filter)
 
-![2](https://user-images.githubusercontent.com/90812374/147710911-49c1f8bc-4c58-4803-8021-7a8484a0df97.PNG)
+![fp_2](https://user-images.githubusercontent.com/90812374/147712722-e6349e0a-3332-413a-b050-a49b2497e73d.PNG)
 
 4. Menu 3 (Hitung Rata-Rata Score Peserta)
 
-![3](https://user-images.githubusercontent.com/90812374/147710929-118fb5d1-15d5-4de0-8ced-4527bb5ed9a0.PNG)
+![fp_3](https://user-images.githubusercontent.com/90812374/147712724-3484c70f-13a5-4457-8381-1f5451547295.PNG)
 
 5. Menu 4 (Sorting)
 
-![4](https://user-images.githubusercontent.com/90812374/147711024-5b76ec94-86a4-43d8-9e4f-251843a3e5be.PNG)
+![fp_4](https://user-images.githubusercontent.com/90812374/147712712-6ed84907-4975-40d0-8a86-235f594dd26f.PNG)
 
 6. Menu 5 (Searching)
 
-![5](https://user-images.githubusercontent.com/90812374/147711019-52b015c3-5988-49cb-8010-74b6e2bc17f1.PNG)
+![fp_5](https://user-images.githubusercontent.com/90812374/147712715-d366c83d-e1b4-44a2-8e86-911bf4913241.PNG)
 
 7. Menu 6 (Masukkan Data Peserta Baru)
 
-![6(1)](https://user-images.githubusercontent.com/90812374/147711020-631e2ae8-02ca-413a-a781-f615799f3faf.PNG)
+![fp_6(1)](https://user-images.githubusercontent.com/90812374/147712716-93adfdb5-f8ce-4a6f-95a9-6af103a2929e.PNG)
 
 Mengecek Data Baru yang Dimasukkan
 
-![6(2)](https://user-images.githubusercontent.com/90812374/147711021-928fd0fc-2583-435b-b533-c8c4d676a604.PNG)
-
-
+![fp_6(2)](https://user-images.githubusercontent.com/90812374/147712717-5a1d6d77-a2b3-4069-8e59-79be4d51943a.PNG)
